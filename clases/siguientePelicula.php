@@ -25,7 +25,7 @@ class SiguintePeli{
             $days == 1  =>"Mañana se estrena",
             $days < 7   =>"Esta semana se estrena",
             $days < 30  => "Este mes se estrena ",
-            default     =>"$days días para que la película se estrena"
+            default     =>"$days días para que la película se estrene"
         };
     }
       //Con esta función depende de cuantos días le quede a la película para que se estrene muestra un texto u otro
@@ -38,7 +38,7 @@ class SiguintePeli{
             $days == 1  =>"Mañana se estrena",
             $days < 7   =>"Esta semana se estrena",
             $days < 30  => "Este mes se estrena ",
-            default     =>"$days días para que la película se estrena"
+            default     =>"$days días para que la película se estrene"
         };
     }
    //Con esta función se obtienen los datos de la API
